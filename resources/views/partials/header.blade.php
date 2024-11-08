@@ -21,5 +21,10 @@
         <!-- summernote -->
         <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.min.css') }}">
     </header>
+
+    <nav>
+        <a href="{{ route('tasks.index')}}">Task List</a>
+        <a href="{{ route('about')}}">About me</a>
+    </nav>
     
 
